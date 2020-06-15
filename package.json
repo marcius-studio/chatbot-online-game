@@ -1,0 +1,23 @@
+{
+  "name": "chatbot-online-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcius-studio/chatbot-online-game.git"
+  },
+  "keywords": [
+    "chatbot",
+    "online-game",
+    "reward",
+    "vue",
+    "node"
+  ],
+  "author": "Nikita Marcius https://github.com/nikitamarcius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcius-studio/chatbot-online-game/issues"
+  },
+  "homepage": "https://github.com/marcius-studio/chatbot-online-game#readme"
+}
