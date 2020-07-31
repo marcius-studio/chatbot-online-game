@@ -1,6 +1,6 @@
 # Chatbot online game
 
-Ready-made online game, for completing tasks points are awarded that can be spent on gifts presented. 
+Ready-made online game with reward system. 
 
 Functional: chatbot, admin, user profile, virtual money (points), list of gifts.
 
@@ -36,10 +36,16 @@ $ cd server && yarn run build
 
 ## Stay in touch
 
-Feel free to ask quetions 😊
+Feel free to ask questions 😊
 
 * Discord: Nikita Marcius#2274
 * Telegram: [@nikitamarcius](https://ttttt.me/nikitamarcius)
+
+## Contributors
+
+<a href="https://github.com/marcius-studio">
+<img src="https://raw.githubusercontent.com/marcius-studio/storage/master/badge-marcius-studio.svg" height="60">
+</a>
 
 ## Licence
 
