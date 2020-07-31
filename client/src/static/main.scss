@@ -1,13 +1,15 @@
 $primary-color: #6490f1;
-$control-padding: 1rem;
 
-@import "~@marcius-capital/marcius-css/src/default-obscure.scss";
+// import base styles 
+@import "~@marcius-studio/vue-notice/static/main.scss"; 
+// import theme. Change "mint.scss" to another theme if nedded 
+@import "~@marcius-studio/vue-notice/static/themes/mint.scss"; 
+
+@import "~@marcius-studio/marcius-css/src/default-obscure.scss";
 
 // imports
 @import "./chat.scss";
 
-// libs
-@import "./noty.scss";
 
 .header {
     padding-top: $control-padding / 2;

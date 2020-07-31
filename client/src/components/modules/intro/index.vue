@@ -14,7 +14,7 @@
                     <div class="unit-section text-left">
                         <div class="material-icons text-primary c-hand" @click="componentId = 'partners'"
                             v-if="componentId == 'videoPromo'">keyboard_backspace</div>
-                        <div class="text-sm text-secondary" v-else>Пролистайте список <br> партнеров до конца конца</div>
+                        <div class="text-sm text-secondary" v-else>Пролистайте список <br> партнеров до конца</div>
                     </div>
                     <div class="unit-section">
                         <button class="btn btn-primary" @click="componentId = 'videoPromo'"

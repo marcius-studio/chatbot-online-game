@@ -57,7 +57,7 @@
             localStorage.clear()
             // test auth data
             if (process.env.NODE_ENV === 'development') this.form = {
-                email: 'nikitamarcius@marcius.co',
+                email: 'johndoe@domain.com',
                 password: '2np46j'
             }
         },

@@ -2,13 +2,11 @@ import Vue from 'vue'
 
 import './filters'
 
-import Vuelidate from 'vuelidate'
-Vue.use(Vuelidate)
-
-import VueNotice from './vue-notice'
+import VueNotice from '@marcius-studio/vue-notice'
 Vue.use(VueNotice)
 
-
+import Vuelidate from 'vuelidate'
+Vue.use(Vuelidate)
 
 import JsonExcel from 'vue-json-excel'
 Vue.component('downloadExcel', JsonExcel)

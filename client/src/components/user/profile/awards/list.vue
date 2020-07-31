@@ -69,7 +69,7 @@
         },
         computed: {
             filteredItems() {
-                return this.items.sort((a, b) => a.price - b.price)
+                return this.items.sort((a, b) => b.price - a.price)
             }
         },
         methods: {

@@ -5,7 +5,7 @@
                 <section class="unit-section">
                     <router-link :to="{name: 'chat'}" class="tile tile-list" tag="div" v-if="$store.getters.auth">
                         <figure class="avatar text-uppercase mr c-hand" :data-initial="user.name || 'Noname' | cut"
-                            style="background-color: #6490f1;"></figure>
+                            :style="`background-color: ${'chat' == $route.name ? '#6490f1' : '#1e2023'}`"></figure>
                         <span class="material-icons c-hand text-secondary"
                             @click="$store.commit('logout')">exit_to_app</span>
                     </router-link>
@@ -14,9 +14,11 @@
                 </section>
                 <section class="unit-section unit-section-main">
                     <router-link :to="{name: 'admin'}" class="material-icons c-hand" tag="span"
-                        v-if="$store.getters.isAdmin"> supervised_user_circle </router-link>
+                        v-if="$store.getters.isAdmin" :class="{'text-primary': 'admin' == $route.name}">
+                        supervised_user_circle </router-link>
                     <router-link :to="{name: 'user'}" class="material-icons c-hand ml" tag="span"
-                        v-if="$store.getters.auth"> account_circle </router-link>
+                        v-if="$store.getters.auth" :class="{'text-primary': 'user' == $route.name}"> account_circle
+                    </router-link>
 
                     <!-- Place this tag where you want the button to render. -->
                     <!--github-button class="ml" href="https://github.com/nikitamarcius" data-size="large"
