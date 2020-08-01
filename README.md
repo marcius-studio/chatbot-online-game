@@ -2,18 +2,24 @@
 
 Ready-made online game with reward system. 
 
+### Stories
+
+* [[EN] Medium.com](https://medium.com/marcius-studio/how-we-organized-an-offline-event-in-an-online-format-due-to-covid-19-ba2de0845626)
+* [[RU] Habrahabr](https://habr.com/ru/post/513046/)
+
 Functional: chatbot, admin, user profile, virtual money (points), list of gifts.
 
 * Client: Vue.js, Vue Apollo
 * Server: Apollo GraphQL, MongoDB Atlas
 
-Сommunication full websocket transport.
+Сommunication Full Websocket Transport.
+
 
 ![promo](docs/promo.png)
 
 ## Installation
 
-Required [Node.js >= v10 (LTS)](https://nodejs.org/en/) 
+Required [Nodejs LTS](https://nodejs.org/en/) 
 
 ```node
 $ cd client && yarn
