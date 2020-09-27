@@ -7,7 +7,9 @@ Ready-made online game with reward system.
 * [How we organized an offline event in an online format due to COVID-19 - Medium.com](https://medium.com/marcius-studio/how-we-organized-an-offline-event-in-an-online-format-due-to-covid-19-ba2de0845626)
 * [Habr.com](https://habr.com/ru/post/513046/)
 
-### Features
+![promo](docs/promo.png)
+
+## Features
 
 Functional: chatbot, admin, user profile, virtual money (points), list of gifts.
 
@@ -22,9 +24,6 @@ Functional: chatbot, admin, user profile, virtual money (points), list of gifts.
 * [x] MongoDB Atlas as Mongoose
 
 Сommunication Full Websocket Transport.
-
-
-![promo](docs/promo.png)
 
 ## Installation
 
