@@ -7,10 +7,19 @@ Ready-made online game with reward system.
 * [How we organized an offline event in an online format due to COVID-19 - Medium.com](https://medium.com/marcius-studio/how-we-organized-an-offline-event-in-an-online-format-due-to-covid-19-ba2de0845626)
 * [Habr.com](https://habr.com/ru/post/513046/)
 
+### Features
+
 Functional: chatbot, admin, user profile, virtual money (points), list of gifts.
 
-* Client: Vue.js, Vue Apollo
-* Server: Apollo GraphQL, MongoDB Atlas
+**Client-side** 
+
+* [x] Vue.js 2.x
+* [x] Vue Apollo
+
+**Server-side**
+
+* [x] Apollo GraphQL
+* [x] MongoDB Atlas as Mongoose
 
 Сommunication Full Websocket Transport.
 
@@ -52,8 +61,4 @@ Feel free to ask questions 😊
 <a href="https://github.com/marcius-studio">
 <img src="https://raw.githubusercontent.com/marcius-studio/storage/master/badge-marcius-studio.svg" height="60">
 </a>
-
-## Licence
-
-[Apache License Version 2.0](LICENSE.md)
 
