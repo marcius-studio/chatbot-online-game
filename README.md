@@ -2,10 +2,10 @@
 
 Ready-made online game with reward system. 
 
-### Stories
+### Articles
 
-* [[EN] Medium.com](https://medium.com/marcius-studio/how-we-organized-an-offline-event-in-an-online-format-due-to-covid-19-ba2de0845626)
-* [[RU] Habrahabr](https://habr.com/ru/post/513046/)
+* [How we organized an offline event in an online format due to COVID-19 - Medium.com](https://medium.com/marcius-studio/how-we-organized-an-offline-event-in-an-online-format-due-to-covid-19-ba2de0845626)
+* [Habr.com](https://habr.com/ru/post/513046/)
 
 Functional: chatbot, admin, user profile, virtual money (points), list of gifts.
 
